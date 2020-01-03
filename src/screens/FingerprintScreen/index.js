@@ -45,7 +45,7 @@ class FingerPrint extends Component {
         })
             .then(() => {
                 // this.props.handlePopupDismissed();
-                this.props.navigation.navigate('Home');
+                this.setState({ errorMessage: 'Success' });
             })
             .catch(error => {
                 // Error Type
