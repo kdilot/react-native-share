@@ -8,6 +8,7 @@ import QrcodeTextScreen from 'screens/QrcodeScreen/QrcodeText';
 import QrcodeScannerScreen from 'screens/QrcodeScreen/QrcodeScanner';
 // import ScrollEventScreen from 'screens/ScrollEventScreen/ScrollEvent';
 import SkeletonLoadScreen from 'screens/SkeletonLoadScreen';
+import FingerprintScreen from 'screens/FingerprintScreen';
 
 //  animation screens
 import FlatlistAnimationScreen from 'animationscreens/FlatlistAnimationScreen';
@@ -27,6 +28,9 @@ const App = createStackNavigator(
         },
         PinCode: {
             screen: PinCodeScreen,
+        },
+        Fingerprint: {
+            screen: FingerprintScreen,
         },
         // ScrollEvent: {
         //     screen: ScrollEventScreen,
