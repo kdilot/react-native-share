@@ -2,21 +2,15 @@ import { StyleSheet } from 'react-native';
 
 export default StyleSheet.create({
     container: {
-        flex: 1,
-        backgroundColor: '#F5FCFF',
-    },
-    listLayout: {
-        flexDirection: 'row',
+        height: '100%',
         alignItems: 'center',
-        padding: 10,
-        margin: 10,
-        borderRadius: 5,
+        justifyContent: 'center',
     },
-    backgroundColor: level => ({
-        backgroundColor: level,
-    }),
-    insideStyle: {
-        flex: 1,
-        flexDirection: 'column',
+    text: {
+        padding: 5,
+        marginVertical: 15,
+        backgroundColor: '#aaa',
+        fontSize: 15,
+        textAlign: 'center',
     },
 });
