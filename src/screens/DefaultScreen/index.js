@@ -22,6 +22,7 @@ export default class DefaultScreen extends Component {
                     <ButtonLayout {...this.props} text={'스크롤 액션'} nav={'ScrollEvent'} />
                     <ButtonLayout {...this.props} text={'로딩 레이아웃'} nav={'SkeletonLoad'} />
                     <ButtonLayout {...this.props} text={'Flatlist 애니메이션'} nav={'FlatlistAnimation'} />
+                    <ButtonLayout {...this.props} text={'아이콘'} nav={'Icon'} />
                     <ButtonLayout {...this.props} text={'테스트'} nav={'Test'} />
                 </View>
             </ScrollView>

@@ -9,6 +9,7 @@ import QrcodeScannerScreen from 'screens/QrcodeScreen/QrcodeScanner';
 // import ScrollEventScreen from 'screens/ScrollEventScreen/ScrollEvent';
 import SkeletonLoadScreen from 'screens/SkeletonLoadScreen';
 import FingerprintScreen from 'screens/FingerprintScreen';
+import IconScreen from 'screens/IconScreen/IconLayout';
 
 //  animation screens
 import FlatlistAnimationScreen from 'animationscreens/FlatlistAnimationScreen';
@@ -40,6 +41,9 @@ const App = createStackNavigator(
         },
         FlatlistAnimation: {
             screen: FlatlistAnimationScreen,
+        },
+        Icon: {
+            screen: IconScreen,
         },
         Test: {
             screen: Test,
